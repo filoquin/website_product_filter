@@ -18,35 +18,35 @@ msgstr ""
 #. module: website_product_filter
 #: view:product.product.filter.category:website_product_filter.view_product_product_filter_category
 msgid "Asingn"
-msgstr "Asingn"
+msgstr "Asignar"
 
 #. module: website_product_filter
 #: field:product.product.filter.category,public_categ_ids:0
 #: field:product.product.filter.filter,filter_category_id:0
 msgid "Category"
-msgstr "Category"
+msgstr "Categoria"
 
 #. module: website_product_filter
 #: field:product.product.filter.category,create_uid:0
 #: field:product.product.filter.filter,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "Creado por"
 
 #. module: website_product_filter
 #: field:product.product.filter.category,create_date:0
 #: field:product.product.filter.filter,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "Creado el"
 
 #. module: website_product_filter
 #: field:product.product.filter.filter,domain:0
 msgid "Domain"
-msgstr "Domain"
+msgstr "Dominio"
 
 #. module: website_product_filter
 #: field:product.template,product_filter_ids:0
 msgid "Filter"
-msgstr "Filter"
+msgstr "Filtro"
 
 #. module: website_product_filter
 #: field:product.product.filter.category,filter_filter_ids:0
@@ -85,18 +85,18 @@ msgstr "Last Updated on"
 #: field:product.product.filter.category,name:0
 #: field:product.product.filter.filter,name:0
 msgid "Name"
-msgstr "Name"
+msgstr "Nombre"
 
 #. module: website_product_filter
 #: field:product.product.filter.category,prefix:0
 msgid "Prefix"
-msgstr "Prefix"
+msgstr "Prefijo"
 
 #. module: website_product_filter
 #: model:ir.actions.act_window,name:website_product_filter.product_product_filter_category_action
 #: model:ir.ui.menu,name:website_product_filter.menu_product_product_filter_category
 msgid "Product Filter Category"
-msgstr "Product Filter Category"
+msgstr "Filtro de categoria de producto"
 
 #. module: website_product_filter
 #: model:ir.model,name:website_product_filter.model_product_template
@@ -106,7 +106,7 @@ msgstr "Plantilla de Producto"
 #. module: website_product_filter
 #: model:ir.model,name:website_product_filter.model_product_product_filter_category
 msgid "Product filter category"
-msgstr "Product filter category"
+msgstr "Filtro de categoria de producto"
 
 #. module: website_product_filter
 #: model:ir.model,name:website_product_filter.model_product_product_filter_filter
@@ -168,7 +168,7 @@ msgstr "product filter category"
 #: field:product.product.filter.category,sequence:0
 #: field:product.product.filter.filter,sequence:0
 msgid "sequence"
-msgstr "sequence"
+msgstr "sequencia"
 
 #. module: website_product_filter
 #: field:product.product.filter.category,amount_step:0
