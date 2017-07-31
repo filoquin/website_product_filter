@@ -1,0 +1,182 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* website_product_filter
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-31 13:26+0000\n"
+"PO-Revision-Date: 2017-07-31 13:26+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_product_filter
+#: view:product.product.filter.category:website_product_filter.view_product_product_filter_category
+msgid "Asingn"
+msgstr "Asingn"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,public_categ_ids:0
+#: field:product.product.filter.filter,filter_category_id:0
+msgid "Category"
+msgstr "Category"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,create_uid:0
+#: field:product.product.filter.filter,create_uid:0
+msgid "Created by"
+msgstr "Created by"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,create_date:0
+#: field:product.product.filter.filter,create_date:0
+msgid "Created on"
+msgstr "Created on"
+
+#. module: website_product_filter
+#: field:product.product.filter.filter,domain:0
+msgid "Domain"
+msgstr "Domain"
+
+#. module: website_product_filter
+#: field:product.template,product_filter_ids:0
+msgid "Filter"
+msgstr "Filter"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,filter_filter_ids:0
+msgid "Filter filter ids"
+msgstr "Filter filter ids"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,amount_from:0
+msgid "From"
+msgstr "From"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,id:0
+#: field:product.product.filter.filter,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: website_product_filter
+#: field:product.product.filter.filter,icon:0
+msgid "Icon"
+msgstr "Icon"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,write_uid:0
+#: field:product.product.filter.filter,write_uid:0
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,write_date:0
+#: field:product.product.filter.filter,write_date:0
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,name:0
+#: field:product.product.filter.filter,name:0
+msgid "Name"
+msgstr "Name"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,prefix:0
+msgid "Prefix"
+msgstr "Prefix"
+
+#. module: website_product_filter
+#: model:ir.actions.act_window,name:website_product_filter.product_product_filter_category_action
+#: model:ir.ui.menu,name:website_product_filter.menu_product_product_filter_category
+msgid "Product Filter Category"
+msgstr "Product Filter Category"
+
+#. module: website_product_filter
+#: model:ir.model,name:website_product_filter.model_product_template
+msgid "Product Template"
+msgstr "Plantilla de Producto"
+
+#. module: website_product_filter
+#: model:ir.model,name:website_product_filter.model_product_product_filter_category
+msgid "Product filter category"
+msgstr "Product filter category"
+
+#. module: website_product_filter
+#: model:ir.model,name:website_product_filter.model_product_product_filter_filter
+msgid "Product filter filter name"
+msgstr "Product filter filter name"
+
+#. module: website_product_filter
+#: model:ir.model,name:website_product_filter.model_product_public_category
+msgid "Public Category"
+msgstr "Categoría pública"
+
+#. module: website_product_filter
+#: help:product.product.filter.category,sequence:0
+#: help:product.product.filter.filter,sequence:0
+msgid "Sequence for the handle."
+msgstr "Sequence for the handle."
+
+#. module: website_product_filter
+#: field:product.product.filter.category,suffix:0
+msgid "Suffix"
+msgstr "Suffix"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,filter_type:0
+msgid "Type"
+msgstr "Type"
+
+#. module: website_product_filter
+#: selection:product.product.filter.category,filter_type:0
+msgid "by filter domain"
+msgstr "by filter domain"
+
+#. module: website_product_filter
+#: selection:product.product.filter.category,filter_type:0
+msgid "by filter name"
+msgstr "by filter name"
+
+#. module: website_product_filter
+#: selection:product.product.filter.category,filter_type:0
+msgid "by product price"
+msgstr "by product price"
+
+#. module: website_product_filter
+#: view:product.product.filter.category:website_product_filter.view_product_product_filter_category
+msgid "filters"
+msgstr "filters"
+
+#. module: website_product_filter
+#: view:product.product.filter.category:website_product_filter.view_product_product_filter_category_tree
+msgid "listas"
+msgstr "listas"
+
+#. module: website_product_filter
+#: view:product.product.filter.category:website_product_filter.view_product_product_filter_category
+msgid "product filter category"
+msgstr "product filter category"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,sequence:0
+#: field:product.product.filter.filter,sequence:0
+msgid "sequence"
+msgstr "sequence"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,amount_step:0
+msgid "step"
+msgstr "step"
+
+#. module: website_product_filter
+#: field:product.product.filter.category,amount_to:0
+msgid "to"
+msgstr "to"
+

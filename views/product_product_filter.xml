@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <record id="view_product_product_filter_category_tree" model="ir.ui.view">
+            <field name="name">product.product.filter.category.tree</field>
+            <field name="model">product.product.filter.category</field>
+            <field name="arch" type="xml">
+                <tree string="listas">
+                    <field name="sequence" widget="handle"/>
+                    <field name="name" />
+                    <field name="filter_type" />
+                </tree>
+            </field>
+        </record>
+        <record id="view_product_product_filter_category" model="ir.ui.view">
+            <field name="name">product_filter_category</field>
+            <field name="model">product.product.filter.category</field>
+            <field name="arch" type="xml">
+                <form string="product filter category">
+                    <header>
+                        <button name="set_assign_domanin" string="Asingn" type="object" class="oe_highlight"  />
+                        <field name="filter_type" widget="statusbar" clickable="True" />
+
+                    </header>
+                    <sheet>
+
+                    <group col="4">
+                        <h2 colspan="4"><field name="name"  required="True" /></h2>
+                        <field name="prefix" />
+                        <field name="suffix" />
+                        <field  colspan="4" name="public_categ_ids" widget="many2many_tags"/>
+                    </group>
+                    <group string="filters">
+
+                        <field name="filter_filter_ids" >
+                            <tree editable="top">
+                                <field name="sequence" widget="handle"/>
+                                <field name="name" required="True"/>
+                                <field name="domain" widget="char_domain" options="{'model': 'product.template'}" />
+                            </tree>
+                        </field>
+
+                    </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="product_product_filter_category_action" model="ir.actions.act_window">
+            <field name="name">Product Filter Category</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">product.product.filter.category</field>
+            <field name="view_type">form</field>
+            <field name="view_id" ref="view_product_product_filter_category_tree" />
+        </record>
+        <menuitem action="product_product_filter_category_action" id="menu_product_product_filter_category" parent="product.prod_config_main" sequence="10" />
+
+
+    <record model="ir.ui.view" id="filter_product_template_form_view">
+        <field name="name">product.template.product.website.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="website_sale.product_template_form_view"/>
+        <field name="arch" type="xml">
+                    <field name="alternative_product_ids" postion="after">
+                        <field name="product_filter_ids" widget="many2many_tags"/>
+                    </field>
+        </field>
+    </record>
+
+
+
+    </data>
+</openerp>
+        

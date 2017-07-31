@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<template id="category_filter_tree"
+              inherit_id="website_sale.products"
+              name="Product Categories filter tree"
+              customize_show="True"
+              active="True">
+
+
+        <xpath expr="//div[@id='products_grid_before']" position="replace">
+            <div class="col-md-3" id="products_grid_before">
+
+            <t t-if="category">
+                <div t-foreach="category.filter_tree()" t-as="t">
+                <t t-foreach="t" t-as="f">
+                    <h3 class="text-center" t-esc="f['name']"/>
+                    <ul class="list-group checked-list-box">
+                            <li class="list-group-item"  t-foreach="f['childs']" t-as="ch"> <a t-attf-href="?{{ ch['args'] }}"><i t-if="ch['selected']" class="fa fa-check-square-o" aria-hidden="true"></i><i t-if="not ch['selected']" class="fa fa-square-o" aria-hidden="true"></i>
+ <t t-esc="ch['name']"/> </a></li>
+                    </ul>
+                </t>
+                </div>
+            </t>
+          </div>
+        </xpath>
+        
+    </template>
+
+    </data>
+</openerp>
